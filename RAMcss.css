@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+
+h1 {
+	padding-left: 2%;
+}
+
+h2 {
+	text-align: center
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 2%;
+  border: 1px solid #C0C0C0;
+
+}
+.nav li {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #ffd478;
+}
+
+.active {
+	background-color: #ffd478
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+	display: inline-block;
+    margin-right: -4px;
+  }
